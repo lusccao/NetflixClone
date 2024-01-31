@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		BD265FEE2B4CA2110014A1A4 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD265FED2B4CA2110014A1A4 /* HeroHeaderUIView.swift */; };
 		BD7983252B45AD9F005DA50A /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7983242B45AD9F005DA50A /* CollectionViewTableViewCell.swift */; };
+		BD7AD37D2B67EC8600277916 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7AD37C2B67EC8600277916 /* Movie.swift */; };
 		BD83299D2B44AEA20052298D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83299C2B44AEA20052298D /* HomeViewController.swift */; };
 		BD83299F2B44AEEB0052298D /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83299E2B44AEEB0052298D /* UpcomingViewController.swift */; };
 		BD8329A12B44AF0D0052298D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8329A02B44AF0D0052298D /* SearchViewController.swift */; };
 		BD8329A32B44AF3B0052298D /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8329A22B44AF3B0052298D /* DownloadsViewController.swift */; };
+		BD8700CF2B584BB500AEFF4E /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8700CE2B584BB500AEFF4E /* APICaller.swift */; };
+		BDCE47282B6AD7FC00787A1D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE47272B6AD7FC00787A1D /* Extensions.swift */; };
+		BDCE472A2B6ADB2800787A1D /* Tv.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE47292B6ADB2800787A1D /* Tv.swift */; };
 		BDF253E02B44AA7700E1A830 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF253DF2B44AA7700E1A830 /* AppDelegate.swift */; };
 		BDF253E22B44AA7700E1A830 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF253E12B44AA7700E1A830 /* SceneDelegate.swift */; };
 		BDF253E42B44AA7700E1A830 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF253E32B44AA7700E1A830 /* MainTabViewController.swift */; };
@@ -43,10 +47,14 @@
 /* Begin PBXFileReference section */
 		BD265FED2B4CA2110014A1A4 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		BD7983242B45AD9F005DA50A /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		BD7AD37C2B67EC8600277916 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		BD83299C2B44AEA20052298D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BD83299E2B44AEEB0052298D /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		BD8329A02B44AF0D0052298D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		BD8329A22B44AF3B0052298D /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		BD8700CE2B584BB500AEFF4E /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		BDCE47272B6AD7FC00787A1D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BDCE47292B6ADB2800787A1D /* Tv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tv.swift; sourceTree = "<group>"; };
 		BDF253DC2B44AA7700E1A830 /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF253DF2B44AA7700E1A830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDF253E12B44AA7700E1A830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +113,8 @@
 		BD7983212B45AD3A005DA50A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BD7AD37C2B67EC8600277916 /* Movie.swift */,
+				BDCE47292B6ADB2800787A1D /* Tv.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -112,6 +122,7 @@
 		BD7983222B45AD55005DA50A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BDCE47272B6AD7FC00787A1D /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -119,6 +130,7 @@
 		BD7983232B45AD6D005DA50A /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				BD8700CE2B584BB500AEFF4E /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -323,11 +335,15 @@
 				BD8329A12B44AF0D0052298D /* SearchViewController.swift in Sources */,
 				BDF253E42B44AA7700E1A830 /* MainTabViewController.swift in Sources */,
 				BD7983252B45AD9F005DA50A /* CollectionViewTableViewCell.swift in Sources */,
+				BD8700CF2B584BB500AEFF4E /* APICaller.swift in Sources */,
 				BD265FEE2B4CA2110014A1A4 /* HeroHeaderUIView.swift in Sources */,
 				BD8329A32B44AF3B0052298D /* DownloadsViewController.swift in Sources */,
 				BDF253E02B44AA7700E1A830 /* AppDelegate.swift in Sources */,
+				BDCE47282B6AD7FC00787A1D /* Extensions.swift in Sources */,
 				BDF253E22B44AA7700E1A830 /* SceneDelegate.swift in Sources */,
 				BD83299F2B44AEEB0052298D /* UpcomingViewController.swift in Sources */,
+				BD7AD37D2B67EC8600277916 /* Movie.swift in Sources */,
+				BDCE472A2B6ADB2800787A1D /* Tv.swift in Sources */,
 				BD83299D2B44AEA20052298D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
